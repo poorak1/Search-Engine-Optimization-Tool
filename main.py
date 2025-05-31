@@ -4,6 +4,10 @@ from task import analysis_task, competitor_finding_task, competitor_researching_
 import streamlit as st
 import validators
 import os
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
+
 
 st.title("Appear before your Competitors in Search Rankings 📈")
 
