@@ -3,3 +3,4 @@ crewai_tools
 python-dotenv
 streamlit
 validators
+pysqlite3-binary
