@@ -1,13 +1,10 @@
+import fix_sqlite
 from crewai import Crew, Process
 from agents import website_analyst, competitor_analyst, competitor_researcher, report_writer
 from task import analysis_task, competitor_finding_task, competitor_researching_task, writing_task
 import streamlit as st
 import validators
 import os
-import sys
-import pysqlite3
-sys.modules["sqlite3"] = pysqlite3
-
 
 st.title("Appear before your Competitors in Search Rankings 📈")
 
